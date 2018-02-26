@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="govno:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/govno_jar</output-path>
+    <root id="archive" name="govno.jar">
+      <element id="module-output" name="govno" />
+    </root>
+  </artifact>
+</component>

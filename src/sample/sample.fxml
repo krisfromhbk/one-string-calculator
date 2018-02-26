@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="128.0" prefWidth="578.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button layoutX="14.0" layoutY="46.0" mnemonicParsing="false" onAction="#onOpenClicked" prefHeight="30.0" prefWidth="175.0" text="Выбрать файл">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="84.0" layoutY="14.0" text="Файл">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="paramName" layoutX="202.0" layoutY="46.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Label layoutX="255.0" layoutY="14.0" text="Параметр">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="436.0" layoutY="14.0" text="Выражение">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="expression" layoutX="388.0" layoutY="46.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Button layoutX="202.0" layoutY="87.0" mnemonicParsing="false" onAction="#onChangeClicked" prefHeight="30.0" prefWidth="175.0" text="Изменить параметр">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="exitButton" layoutX="389.0" layoutY="87.0" mnemonicParsing="false" onAction="#onExitClicked" prefHeight="25.0" prefWidth="175.0" text="закрыть ЭТО">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Hyperlink layoutX="39.0" layoutY="91.0" onAction="#onLinkClicked" text="кинуть страйк автору" />
+   </children>
+</AnchorPane>
